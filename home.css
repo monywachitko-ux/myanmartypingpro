@@ -13,6 +13,7 @@ body{
   background-color:#0f1f2b;
   color: white;
   margin: 0;
+  overflow: hidden;
 }
 
 a{
@@ -181,13 +182,14 @@ a{
 ===================================================== */
 
 .info-section{
-    position:relative;
-    margin-top:40px;
+    position:absolute;
+    bottom:40px;
 
     width:90%;
     max-width:1100px;
-    margin-left:auto;
-    margin-right:auto;
+    left:0;
+    right:0;
+    margin:auto;
 
     display:flex;
     justify-content:center;
