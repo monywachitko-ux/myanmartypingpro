@@ -12,6 +12,8 @@ body{
   flex-direction:column;
   background-color:#0f1f2b;
   color: white;
+  margin: 0;
+  overflow: hidden;
 }
 
 a{
@@ -180,22 +182,25 @@ a{
 ===================================================== */
 
 .info-section{
-    position:absolute;
-    bottom:40px;           /* အောက်ခြေကနေ အကွာ */
-    left:50%;
-    transform:translateX(-50%);  /* အလယ်တည့် */
+    margin-top:40px;      /* အပေါ်ကနေ spacing */
 
     width:100%;
     max-width:1100px;
+
+    margin-left:auto;
+    margin-right:auto;
 
     display:flex;
     justify-content:center;
     gap:30px;
     flex-wrap:wrap;
+
+    padding:0 15px;
 }
 
 .info-card{
-  width:300px;
+  width:100%;
+  max-width:300px;
   padding:22px;
 
   background:#08141c;
