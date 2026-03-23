@@ -59,6 +59,45 @@ border-radius:10px;
 box-shadow:0 10px 30px rgba(0,0,0,0.4);
 }
 
+.youtube-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+
+  background: #ff0000; /* YouTube red */
+  color: #ffffff;
+
+  box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+/* ▶ Play Icon */
+.youtube-btn::before {
+  content: "▶";
+  font-size: 14px;
+  background: white;
+  color: red;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover Effect */
+.youtube-btn:hover {
+  background: #cc0000;
+  transform: scale(1.06);
+  box-shadow: 0 6px 20px rgba(255, 0, 0, 0.8);
+}
+
 </style>
 
 </head>
@@ -97,9 +136,12 @@ Software Update အတွက်လည်း ကျနော်တို့ စ�
 
 </div>
 
-<a href="https://drive.google.com/uc?export=download&id=1lP50X_o3uq0ZL5q5q9JuJtkMjWdxWrqz" class="download-btn">
-Download MM Downloader Pro
+<a href="https://drive.google.com/uc?export=download&id=1lP50X_o3uq0ZL5q5q9JuJtkMjWdxWrqz" class="download-btn"> MM Downloader Pro [V 1.0.0]</a>
+<a href="https://drive.google.com/uc?export=download&id=1Z-JNmo8ojhUxQ-ewLIN3v6uMKMLwKwaH" class="download-btn"> MM Downloader Pro [V 2.0.0]</a> <br>
+<a href="https://youtu.be/ddkMKx0gPOo" class="youtube-btn">
+  Install လုပ်နည်း | Browser extensions ထည့်သွင်းနည်း Video [V 2.0.0]
 </a>
+
 
 
 <div class="preview-images">
